@@ -63,7 +63,7 @@ public class Solution {
             k++;
         } while (k < 100);
 
-        System.out.println("\n--------Задача 4--------");
+        System.out.println("\n--------Задача 5--------");
         int[] binary = {1, 0, 0, 0, 1, 0, 1};
         k = 0;
         while (k < binary.length) {
@@ -76,7 +76,7 @@ public class Solution {
         }
         System.out.println(Arrays.toString(binary));
 
-        System.out.println("\n--------Задача 5--------");
+        System.out.println("--------Задача 6--------");
         int[][] matrix = new int[3][3];
         for (int i = 0; i < matrix.length; i++) {
             matrix[i][i] = 1;
